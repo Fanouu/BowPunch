@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Fanouu/BowPunch
+build-by-default: true
+branches:
+- main
+projects:
+  BowPunch:
+    path: ""
+...
