@@ -1,5 +1,5 @@
 name: BowPunch
 author: Fanouu
-api: [4.0.0]
+api: [4.0.0, 4.0.1, 4.0.2, 4.0.3]
 version: 1.0
 main: BowPunch\Main
