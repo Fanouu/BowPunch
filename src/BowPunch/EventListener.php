@@ -3,7 +3,7 @@
 namespace BowPunch;
 
 use pocketmine\event\Listener;
-use pocketmine\event\player\PlayerInteractEvent;
+use pocketmine\event\player\PlayerItemUseEvent;
 use pocketmine\math\Vector3;
 use pocketmine\item\enchantment\Enchantment;
 use pocketmine\data\bedrock\EnchantmentIdMap;
@@ -14,7 +14,7 @@ class EventListener implements Listener{
     
     public static $coold = [];
     
-    public function onInteract(PlayerInteractEvent $event){
+    public function onInteract(PlayerItemUseEvent $event){
         $item = $event->getItem();
         $player = $event->getPlayer();
         $pname = $event->getPlayer()->getName();
